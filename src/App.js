@@ -24,7 +24,7 @@ const App = () =>{
   return (
     <TodoTemplate>
       <TodoInsert/>
-      <TodoList/>
+      <TodoList todos ={todos}/>
     </TodoTemplate>
   );
 }
